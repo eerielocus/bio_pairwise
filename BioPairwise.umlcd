@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_vw0bgBSDEeqs6MbNkUxYUA">
+  <modelElement href="BioPairwise.uml#_tnjB4BSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ybU58BSDEeqs6MbNkUxYUA" sourceAnchor="135.0,0.0" targetAnchor="270.0,70.0" target="_ybxl5xSDEeqs6MbNkUxYUA" source="_ybxl5xSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjeBSDEeqs6MbNkUxYUA"/>
+    <bendpoints xmi:id="_Y4KzUBSEEeqs6MbNkUxYUA" sourceY="-112" targetX="-135" targetY="-182"/>
+    <bendpoints xmi:id="_Y4KzURSEEeqs6MbNkUxYUA" sourceX="195" sourceY="-112" targetX="60" targetY="-182"/>
+    <bendpoints xmi:id="_Y4KzUhSEEeqs6MbNkUxYUA" sourceX="195" sourceY="70" targetX="60"/>
+    <nameVisual xmi:id="_ybxl4BSDEeqs6MbNkUxYUA" text="">
+      <visualProperties xmi:id="_ywf4tBSDEeqs6MbNkUxYUA" position="-177.0,-10.999999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ybxl4RSDEeqs6MbNkUxYUA" aggregationKind="NONE" name="prevNode" navigable="true">
+      <modelElement href="BioPairwise.uml#_wV43dBSDEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_ywf4sxSDEeqs6MbNkUxYUA" position="-93.0,-60.0"/>
+      <visibility xmi:id="_ybxl5BSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl4xSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ybxl4hSDEeqs6MbNkUxYUA" aggregationKind="NONE" name="">
+      <modelElement href="BioPairwise.uml#_wWVjeRSDEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_ywf4tRSDEeqs6MbNkUxYUA" position="5.0,-67.0"/>
+      <visibility xmi:id="_ybxl5hSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl5RSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yc94sBSDEeqs6MbNkUxYUA" sourceAnchor="132.0,0.0" targetAnchor="135.0,139.0" target="_ybxl5xSDEeqs6MbNkUxYUA" source="_yd3QlhSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWfUZBSDEeqs6MbNkUxYUA"/>
+    <stereotypes xmi:id="_ydakoRSDEeqs6MbNkUxYUA" name="Reference">
+      <modelElement href="BioPairwise.uml#_wWfUZhSDEeqs6MbNkUxYUA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ydQzoBSDEeqs6MbNkUxYUA" text="">
+      <visualProperties xmi:id="_ywpCoBSDEeqs6MbNkUxYUA" position="-87.0,-33.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ydQzoRSDEeqs6MbNkUxYUA" aggregationKind="NONE" name="">
+      <modelElement href="BioPairwise.uml#_wWfUZRSDEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_ywf4thSDEeqs6MbNkUxYUA" position="-18.0,-64.0"/>
+      <visibility xmi:id="_yd3QkRSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yd3QkBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ydakoBSDEeqs6MbNkUxYUA" aggregationKind="NONE" name="score" navigable="true">
+      <modelElement href="BioPairwise.uml#_wWCofhSDEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_ywpCoRSDEeqs6MbNkUxYUA" position="2.0,4.0"/>
+      <visibility xmi:id="_yd3QkxSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QkhSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydkVoBSDEeqs6MbNkUxYUA" targetItem="_yd3QwBSDEeqs6MbNkUxYUA" sourceItem="_ydakohSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydkVohSDEeqs6MbNkUxYUA" targetItem="_yd3QzBSDEeqs6MbNkUxYUA" sourceItem="_ydkVoRSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydkVpBSDEeqs6MbNkUxYUA" targetItem="_yd3QzxSDEeqs6MbNkUxYUA" sourceItem="_ydkVoxSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydkVphSDEeqs6MbNkUxYUA" targetItem="_yd3Q2hSDEeqs6MbNkUxYUA" sourceItem="_ydkVpRSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydtfkRSDEeqs6MbNkUxYUA" targetItem="_yd3Q5RSDEeqs6MbNkUxYUA" sourceItem="_ydtfkBSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydtfkxSDEeqs6MbNkUxYUA" targetItem="_yd3Q6BSDEeqs6MbNkUxYUA" sourceItem="_ydtfkhSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydtflRSDEeqs6MbNkUxYUA" targetItem="_yd3Q7hSDEeqs6MbNkUxYUA" sourceItem="_ydtflBSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydtflxSDEeqs6MbNkUxYUA" targetItem="_yd3Q9BSDEeqs6MbNkUxYUA" sourceItem="_ydtflhSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ydtfmRSDEeqs6MbNkUxYUA" targetItem="_yd3Q-RSDEeqs6MbNkUxYUA" sourceItem="_ydtfmBSDEeqs6MbNkUxYUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YzP3EBSEEeqs6MbNkUxYUA" sourceAnchor="194.0,132.0" targetAnchor="558.0,0.0" target="_yd3QlhSDEeqs6MbNkUxYUA" source="_yY8UUBSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_YzGGEBSEEeqs6MbNkUxYUA"/>
+    <visualProperties xmi:id="_YzP3ERSEEeqs6MbNkUxYUA"/>
+    <nameVisual xmi:id="_YzP3EhSEEeqs6MbNkUxYUA" text="">
+      <visualProperties xmi:id="_Y4KzVBSEEeqs6MbNkUxYUA" position="2.5,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YzP3ExSEEeqs6MbNkUxYUA" aggregationKind="NONE" name="main" navigable="true">
+      <modelElement href="BioPairwise.uml#_YzGGERSEEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_Y4KzUxSEEeqs6MbNkUxYUA" position="-50.5,6.666666666666629"/>
+      <visibility xmi:id="_YzP3FBSEEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_YzP3FRSEEeqs6MbNkUxYUA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YzP3FhSEEeqs6MbNkUxYUA" aggregationKind="NONE" name="">
+      <modelElement href="BioPairwise.uml#_YzGGFBSEEeqs6MbNkUxYUA"/>
+      <visualProperties xmi:id="_Y4KzVRSEEeqs6MbNkUxYUA" position="41.5,-56.0"/>
+      <visibility xmi:id="_YzP3FxSEEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_YzP3GBSEEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydakohSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydkVoBSDEeqs6MbNkUxYUA" text="Constructor method that takes in all arguments required for sequence alignment.&#xD;&#xA;&#x9; * It will initiate each node of the score matrix and set default scores and previous&#xD;&#xA;&#x9; * nodes to be processed later for scoring." item="_yd3QwBSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjfRSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydkVoRSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydkVohSDEeqs6MbNkUxYUA" text="Set the scores for each node and set the previous node pointer." item="_yd3QzBSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjfhSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydkVoxSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydkVpBSDEeqs6MbNkUxYUA" text="Initiate first row and column scores based on gap penalty." item="_yd3QzxSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjfxSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydkVpRSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydkVphSDEeqs6MbNkUxYUA" text="Get the specified node based on location for initial previous node setup." item="_yd3Q2hSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjgBSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydtfkBSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydtfkRSDEeqs6MbNkUxYUA" text="Get the current node and get the nodes above, left, and diagonal nodes from it&#xD;&#xA;&#x9; * and apply scoring based on set score setting." item="_yd3Q5RSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWVjgRSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydtfkhSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydtfkxSDEeqs6MbNkUxYUA" text="Trace back from the last node of sequence and follow up with the next&#xD;&#xA;&#x9; * previous node depending on the scoring and this sequence is placed into&#xD;&#xA;&#x9; * a string array." item="_yd3Q6BSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWfUYBSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydtflBSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydtflRSDEeqs6MbNkUxYUA" text="Public accessible method to begin the trace back and return the&#xD;&#xA;&#x9; * alignment as a string array." item="_yd3Q7hSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWfUYhSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydtflhSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydtflxSDEeqs6MbNkUxYUA" text="Simple method to add up the score of the aligned sequence." item="_yd3Q9BSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWfUYxSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ydtfmBSDEeqs6MbNkUxYUA" sourceConnectionVisual="_ydtfmRSDEeqs6MbNkUxYUA" text="Check if previous node is null for trace back method." item="_yd3Q-RSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wWfUYRSDEeqs6MbNkUxYUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yd3QlhSDEeqs6MbNkUxYUA" name="SequenceAlignment" associationsIn="_YzP3EBSEEeqs6MbNkUxYUA" associationsOut="_yc94sBSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wTqC1xSDEeqs6MbNkUxYUA"/>
+    <visualProperties xmi:id="_yd3QlxSDEeqs6MbNkUxYUA" position="184.0,312.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yd3QmBSDEeqs6MbNkUxYUA" label="+"/>
+    <attributes xmi:id="_yd3QmRSDEeqs6MbNkUxYUA" defaultValue="1" name="match">
+      <modelElement href="BioPairwise.uml#_wV43eBSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QmhSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCocBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QmxSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QnBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_yd3QnRSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QnhSDEeqs6MbNkUxYUA" defaultValue="-1" name="mismatch">
+      <modelElement href="BioPairwise.uml#_wWCocRSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QnxSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCocxSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QoBSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QoRSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_yd3QohSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QoxSDEeqs6MbNkUxYUA" defaultValue="-2" name="gap">
+      <modelElement href="BioPairwise.uml#_wWCodBSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QpBSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCodhSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QpRSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QphSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_yd3QpxSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QqBSDEeqs6MbNkUxYUA" name="sequence1">
+      <modelElement href="BioPairwise.uml#_wWCodxSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QqRSDEeqs6MbNkUxYUA" name="MultiDeclaration">
+        <modelElement href="BioPairwise.uml#_wWCoeBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yd3QqhSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCoeRSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QqxSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QrBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_yd3QrRSDEeqs6MbNkUxYUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QrhSDEeqs6MbNkUxYUA" name="alignment">
+      <modelElement href="BioPairwise.uml#_wWCoehSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QrxSDEeqs6MbNkUxYUA" name="Array">
+        <modelElement href="BioPairwise.uml#_wWCofBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yd3QsBSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCofRSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QsRSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QshSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_yd3QsxSDEeqs6MbNkUxYUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QtBSDEeqs6MbNkUxYUA" name="score">
+      <modelElement href="BioPairwise.uml#_wWCofhSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QtRSDEeqs6MbNkUxYUA" name="Array">
+        <modelElement href="BioPairwise.uml#_wWCogBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yd3QthSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWCogRSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QtxSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QuBSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_yd3QuRSDEeqs6MbNkUxYUA" name="Node">
+        <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yd3QuhSDEeqs6MbNkUxYUA" name="sequence2">
+      <modelElement href="BioPairwise.uml#_wWVjehSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3QuxSDEeqs6MbNkUxYUA" name="MultiDeclaration">
+        <modelElement href="BioPairwise.uml#_wWVjexSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yd3QvBSDEeqs6MbNkUxYUA" name="LegacyStyledElement">
+        <modelElement href="BioPairwise.uml#_wWVjfBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3QvRSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QvhSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_yd3QvxSDEeqs6MbNkUxYUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YzP3GRSEEeqs6MbNkUxYUA" name="main">
+      <modelElement href="BioPairwise.uml#_YzGGERSEEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_YzP3GhSEEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_YzP3GxSEEeqs6MbNkUxYUA" label="*" max="-1"/>
+      <type xmi:id="_YzP3HBSEEeqs6MbNkUxYUA" name="Main">
+        <modelElement href="BioPairwise.uml#_wTNW4BSDEeqs6MbNkUxYUA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yd3QwBSDEeqs6MbNkUxYUA" comments="_ydakohSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydkVoBSDEeqs6MbNkUxYUA" name="SequenceAlignment">
+      <modelElement href="BioPairwise.uml#_wTzMwBSDEeqs6MbNkUxYUA"/>
+      <keywords xmi:id="_yd3QwRSDEeqs6MbNkUxYUA" keyword="create"/>
+      <visibility xmi:id="_yd3QwhSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yd3QwxSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yd3QxBSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wTzMxRSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3QxRSDEeqs6MbNkUxYUA" name="SequenceAlignment">
+          <modelElement href="BioPairwise.uml#_wTqC1xSDEeqs6MbNkUxYUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yd3QxhSDEeqs6MbNkUxYUA" name="sequence1">
+        <modelElement href="BioPairwise.uml#_wTzMwRSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3QxxSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3QyBSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yd3QyRSDEeqs6MbNkUxYUA" name="sequence2">
+        <modelElement href="BioPairwise.uml#_wTzMwhSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3QyhSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3QyxSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yd3QzBSDEeqs6MbNkUxYUA" comments="_ydkVoRSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydkVohSDEeqs6MbNkUxYUA" name="setInitialInfo">
+      <modelElement href="BioPairwise.uml#_wTzMxhSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3QzRSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3QzhSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yd3QzxSDEeqs6MbNkUxYUA" comments="_ydkVoxSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydkVpBSDEeqs6MbNkUxYUA" name="getScores">
+      <modelElement href="BioPairwise.uml#_wTzMxxSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3Q0BSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3Q0RSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yd3Q0hSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wTzMyhSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q0xSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yd3Q1BSDEeqs6MbNkUxYUA" name="row">
+        <modelElement href="BioPairwise.uml#_wTzMyBSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3Q1RSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3Q1hSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yd3Q1xSDEeqs6MbNkUxYUA" name="col">
+        <modelElement href="BioPairwise.uml#_wTzMyRSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3Q2BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3Q2RSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yd3Q2hSDEeqs6MbNkUxYUA" comments="_ydkVpRSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydkVphSDEeqs6MbNkUxYUA" name="getNodes">
+      <modelElement href="BioPairwise.uml#_wTzMyxSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3Q2xSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3Q3BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yd3Q3RSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wVvtgBSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q3hSDEeqs6MbNkUxYUA" name="Node">
+          <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yd3Q3xSDEeqs6MbNkUxYUA" name="row">
+        <modelElement href="BioPairwise.uml#_wTzMzBSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3Q4BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3Q4RSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yd3Q4hSDEeqs6MbNkUxYUA" name="col">
+        <modelElement href="BioPairwise.uml#_wTzMzRSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3Q4xSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3Q5BSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yd3Q5RSDEeqs6MbNkUxYUA" comments="_ydtfkBSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydtfkRSDEeqs6MbNkUxYUA" name="setNodeInfo">
+      <modelElement href="BioPairwise.uml#_wT89wBSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3Q5hSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3Q5xSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yd3Q6BSDEeqs6MbNkUxYUA" comments="_ydtfkhSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydtfkxSDEeqs6MbNkUxYUA" name="traceback">
+      <modelElement href="BioPairwise.uml#_wT89wRSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3Q6RSDEeqs6MbNkUxYUA" name="Array">
+        <modelElement href="BioPairwise.uml#_wT89xBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3Q6hSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3Q6xSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_yd3Q7BSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wT89whSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q7RSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yd3Q7hSDEeqs6MbNkUxYUA" comments="_ydtflBSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydtflRSDEeqs6MbNkUxYUA" name="getAlignment">
+      <modelElement href="BioPairwise.uml#_wT89xRSDEeqs6MbNkUxYUA"/>
+      <stereotypes xmi:id="_yd3Q7xSDEeqs6MbNkUxYUA" name="Array">
+        <modelElement href="BioPairwise.uml#_wT89yBSDEeqs6MbNkUxYUA"/>
+      </stereotypes>
+      <visibility xmi:id="_yd3Q8BSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yd3Q8RSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_yd3Q8hSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wT89xhSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q8xSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yd3Q9BSDEeqs6MbNkUxYUA" comments="_ydtflhSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydtflxSDEeqs6MbNkUxYUA" name="getAlignmentScore">
+      <modelElement href="BioPairwise.uml#_wT89yRSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3Q9RSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yd3Q9hSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yd3Q9xSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wT89yhSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q-BSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yd3Q-RSDEeqs6MbNkUxYUA" comments="_ydtfmBSDEeqs6MbNkUxYUA" targetConnectionVisual="_ydtfmRSDEeqs6MbNkUxYUA" name="isNull">
+      <modelElement href="BioPairwise.uml#_wVvtgRSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yd3Q-hSDEeqs6MbNkUxYUA" label="#"/>
+      <cardinality xmi:id="_yd3Q-xSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yd3Q_BSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wVvtgxSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yd3Q_RSDEeqs6MbNkUxYUA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yd3Q_hSDEeqs6MbNkUxYUA" name="current">
+        <modelElement href="BioPairwise.uml#_wVvtghSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yd3Q_xSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yd3RABSDEeqs6MbNkUxYUA" name="Node">
+          <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ybxl5xSDEeqs6MbNkUxYUA" name="Node" associationsIn="_ybU58BSDEeqs6MbNkUxYUA _yc94sBSDEeqs6MbNkUxYUA" associationsOut="_ybU58BSDEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+    <visualProperties xmi:id="_ybxl6BSDEeqs6MbNkUxYUA" position="181.0,105.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ybxl6RSDEeqs6MbNkUxYUA" label="+"/>
+    <attributes xmi:id="_ybxl6hSDEeqs6MbNkUxYUA" name="prevNode">
+      <modelElement href="BioPairwise.uml#_wV43dBSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_ybxl6xSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl7BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_ybxl7RSDEeqs6MbNkUxYUA" name="Node">
+        <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ybxl7hSDEeqs6MbNkUxYUA" name="score">
+      <modelElement href="BioPairwise.uml#_wV43dRSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_ybxl7xSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl8BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_ybxl8RSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ybxl8hSDEeqs6MbNkUxYUA" name="row">
+      <modelElement href="BioPairwise.uml#_wV43dhSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_ybxl8xSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl9BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_ybxl9RSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ybxl9hSDEeqs6MbNkUxYUA" name="col">
+      <modelElement href="BioPairwise.uml#_wV43dxSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_ybxl9xSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl-BSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <type xmi:id="_ybxl-RSDEeqs6MbNkUxYUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ybxl-hSDEeqs6MbNkUxYUA" name="Node">
+      <modelElement href="BioPairwise.uml#_wTqC0RSDEeqs6MbNkUxYUA"/>
+      <keywords xmi:id="_ybxl-xSDEeqs6MbNkUxYUA" keyword="create"/>
+      <visibility xmi:id="_ybxl_BSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_ybxl_RSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ybxl_hSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wTqC1hSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_ybxl_xSDEeqs6MbNkUxYUA" name="Node">
+          <modelElement href="BioPairwise.uml#_wTqC0BSDEeqs6MbNkUxYUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ybxmABSDEeqs6MbNkUxYUA" name="row">
+        <modelElement href="BioPairwise.uml#_wTqC0hSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_ybxmARSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_ybxmAhSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ybxmAxSDEeqs6MbNkUxYUA" name="col">
+        <modelElement href="BioPairwise.uml#_wTqC0xSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_ybxmBBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_ybxmBRSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yY8UUBSDEeqs6MbNkUxYUA" name="Main" associationsOut="_YzP3EBSEEeqs6MbNkUxYUA">
+    <modelElement href="BioPairwise.uml#_wTNW4BSDEeqs6MbNkUxYUA"/>
+    <visualProperties xmi:id="_yY8UURSDEeqs6MbNkUxYUA" position="548.0,106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yY8UUhSDEeqs6MbNkUxYUA" label="+"/>
+    <operations xmi:id="_yY8UUxSDEeqs6MbNkUxYUA" name="main" staticOperation="true">
+      <modelElement href="BioPairwise.uml#_wTWg2RSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yY8UVBSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yY8UVRSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yY8UVhSDEeqs6MbNkUxYUA" name="args">
+        <modelElement href="BioPairwise.uml#_wTWg2hSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UVxSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yY8UWBSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yY8UWRSDEeqs6MbNkUxYUA" name="displayMutations" staticOperation="true">
+      <modelElement href="BioPairwise.uml#_wTgR0RSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yY8UWhSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yY8UWxSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yY8UXBSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wTgR0xSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yY8UXRSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yY8UXhSDEeqs6MbNkUxYUA" name="alignment">
+        <modelElement href="BioPairwise.uml#_wTgR0hSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UXxSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yY8UYBSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yY8UYRSDEeqs6MbNkUxYUA" name="parseInfo" staticOperation="true">
+      <modelElement href="BioPairwise.uml#_wTgR1RSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yY8UYhSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yY8UYxSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yY8UZBSDEeqs6MbNkUxYUA" name="alignment">
+        <modelElement href="BioPairwise.uml#_wTgR1hSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UZRSDEeqs6MbNkUxYUA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yY8UZhSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yY8UZxSDEeqs6MbNkUxYUA" name="length">
+        <modelElement href="BioPairwise.uml#_wTgR1xSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UaBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yY8UaRSDEeqs6MbNkUxYUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yY8UahSDEeqs6MbNkUxYUA" name="readFile" staticOperation="true">
+      <modelElement href="BioPairwise.uml#_wV43cBSDEeqs6MbNkUxYUA"/>
+      <visibility xmi:id="_yY8UaxSDEeqs6MbNkUxYUA" label="+"/>
+      <cardinality xmi:id="_yY8UbBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yY8UbRSDEeqs6MbNkUxYUA">
+        <modelElement href="BioPairwise.uml#_wV43cxSDEeqs6MbNkUxYUA"/>
+        <type xmi:id="_yY8UbhSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yY8UbxSDEeqs6MbNkUxYUA" name="path">
+        <modelElement href="BioPairwise.uml#_wV43cRSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UcBSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yY8UcRSDEeqs6MbNkUxYUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yY8UchSDEeqs6MbNkUxYUA" name="encoding">
+        <modelElement href="BioPairwise.uml#_wV43chSDEeqs6MbNkUxYUA"/>
+        <cardinality xmi:id="_yY8UcxSDEeqs6MbNkUxYUA" label="1" max="1" min="1"/>
+        <type xmi:id="_yY8UdBSDEeqs6MbNkUxYUA" name="Charset">
+          <modelElement href="BioPairwise.uml#_wVl8gBSDEeqs6MbNkUxYUA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

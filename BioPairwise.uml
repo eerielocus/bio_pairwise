@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_tnjB4BSDEeqs6MbNkUxYUA" name="BioPairwise">
+    <eAnnotations xmi:id="_wDTSoBSDEeqs6MbNkUxYUA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_wDTSoRSDEeqs6MbNkUxYUA" source="codegen">
+        <details xmi:id="_wDTSohSDEeqs6MbNkUxYUA" key="codegenDirectory" value="/BioPairwise/src"/>
+        <details xmi:id="_xEseMBSDEeqs6MbNkUxYUA" key="AssociatedSourceCode" value="/BioPairwise/src/Main.java;1624633267/1;/BioPairwise/src/Node.java;3749817298/1;/BioPairwise/src/SequenceAlignment.java;3981240793/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_wTWg0BSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg0RSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg0hSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg0xSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg1BSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg1RSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg1hSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg1xSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_wTWg2BSDEeqs6MbNkUxYUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wST_ABSDEeqs6MbNkUxYUA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wST_ARSDEeqs6MbNkUxYUA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wVcLgBSDEeqs6MbNkUxYUA" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wST_AhSDEeqs6MbNkUxYUA" name="nio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wST_AxSDEeqs6MbNkUxYUA" name="charset">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wVl8gBSDEeqs6MbNkUxYUA" name="Charset"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wVl8ghSDEeqs6MbNkUxYUA" name="StandardCharsets"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wST_BBSDEeqs6MbNkUxYUA" name="file">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wVl8hBSDEeqs6MbNkUxYUA" name="Files"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wVl8hhSDEeqs6MbNkUxYUA" name="Paths"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTNW4BSDEeqs6MbNkUxYUA" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLyYBSDEeqs6MbNkUxYUA" name="main" specification="_wTWg2RSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWLyYRSDEeqs6MbNkUxYUA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWLyYhSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// Read files into strings.&#xD;
+		String sequence1 = readFile(&quot;seq1.txt&quot;, StandardCharsets.US_ASCII);&#xD;
+		String sequence2 = readFile(&quot;seq2.txt&quot;, StandardCharsets.US_ASCII);&#xD;
+		// Remove any newline commands.&#xD;
+		sequence1 = sequence1.replace(&quot;\n&quot;, &quot;&quot;);&#xD;
+		sequence2 = sequence2.replace(&quot;\n&quot;, &quot;&quot;);&#xD;
+		// Run sequence alignment algorithm.&#xD;
+		SequenceAlignment test = new SequenceAlignment(sequence1, sequence2);&#xD;
+		String[] alignment = test.getAlignment();&#xD;
+		String display = displayMutations(alignment);&#xD;
+		// Begin output.&#xD;
+		System.out.println(&quot;Needleman-Wunsch Algorithm: Dynamic Programming for Sequence Alignment&quot;);&#xD;
+		System.out.println(&quot;--------------------------------------------&quot;);&#xD;
+		System.out.println(&quot;Alignment Symbols: '*' = Match, '|' = Mismatch (Substitution), ' ' = Gap (Indel)&quot;);&#xD;
+		System.out.println(&quot;Scoring: Match = 1, Mismatch = -1, Gap = -2&quot;);&#xD;
+		System.out.println(&quot;--------------------------------------------&quot;);&#xD;
+		// Due to the size limitations, divide the sequences accordingly and print portions of it.&#xD;
+		// Added further proofing for various sizes.&#xD;
+		if (alignment[0].length() > 80) {&#xD;
+			int length = alignment[0].length() / 80;&#xD;
+			if ((length * 80) + 80 > alignment[0].length()) { length++; }&#xD;
+			for (int i = 0; i &lt; length; i++) {&#xD;
+				if (i == length - 1) {&#xD;
+					System.out.println(&quot;Sequence 1:       &quot; + alignment[0].substring(i * 80));&#xD;
+					System.out.printf(&quot;            %4d  &quot; + display.substring(i * 80) + &quot;  %d\n&quot;, i * 80 + 1, alignment[0].length());&#xD;
+					System.out.println(&quot;Sequence 2:       &quot; + alignment[1].substring(i * 80));&#xD;
+				} else {&#xD;
+					System.out.println(&quot;Sequence 1:       &quot; + alignment[0].substring(i * 80, (i * 80) + 80));&#xD;
+					System.out.printf(&quot;            %4d  &quot; + display.substring(i * 80, (i * 80) + 80) + &quot;  %d\n&quot;, i * 80 + 1, (i * 80) + 80);&#xD;
+					System.out.println(&quot;Sequence 2:       &quot; + alignment[1].substring(i * 80, (i * 80) + 80));&#xD;
+				}&#xD;
+			}&#xD;
+		} else {&#xD;
+			System.out.println(&quot;Sequence 1:       &quot; + alignment[0]);&#xD;
+			System.out.printf(&quot;            %4d  &quot; + display + &quot;  %d\n&quot;, 1, alignment[0].length());&#xD;
+			System.out.println(&quot;Sequence 2:       &quot; + alignment[1]);&#xD;
+		}&#xD;
+		System.out.println(&quot;--------------------------------------------&quot;);&#xD;
+		System.out.println(&quot;Alignment Score: &quot; + test.getAlignmentScore());&#xD;
+		parseInfo(alignment, alignment[0].length());&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLyYxSDEeqs6MbNkUxYUA" name="readFile" specification="_wV43cBSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWLyZBSDEeqs6MbNkUxYUA" name="path">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWLyZRSDEeqs6MbNkUxYUA" name="encoding" type="_wVl8gBSDEeqs6MbNkUxYUA"/>
+        <ownedParameter xmi:id="_wWLyZhSDEeqs6MbNkUxYUA" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>byte[] encoded = Files.readAllBytes(Paths.get(path));&#xD;
+		return new String(encoded, encoding);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLyZxSDEeqs6MbNkUxYUA" name="displayMutations" specification="_wTgR0RSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWLyaBSDEeqs6MbNkUxYUA" name="alignment">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWLyaRSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWLyahSDEeqs6MbNkUxYUA" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String result = &quot;&quot;;&#xD;
+		for (int i = 0; i &lt; alignment[0].length(); i++) {&#xD;
+			if (alignment[0].charAt(i) == '-' || alignment[1].charAt(i) == '-') {&#xD;
+				result = result.concat(&quot; &quot;);&#xD;
+			} else if (alignment[0].charAt(i) == alignment[1].charAt(i)) {&#xD;
+				result = result.concat(&quot;*&quot;);&#xD;
+			} else {&#xD;
+				result = result.concat(&quot;|&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLyaxSDEeqs6MbNkUxYUA" name="parseInfo" specification="_wTgR1RSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWLybBSDEeqs6MbNkUxYUA" name="alignment">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWLybRSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWLybhSDEeqs6MbNkUxYUA" name="length">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String gap_locations = &quot;&quot;;&#xD;
+		String substitutions = &quot;&quot;;&#xD;
+		String format = &quot;&quot;;&#xD;
+		int gaps = 0;&#xD;
+		int subs = 0;&#xD;
+		int mats = 0;&#xD;
+		// Check for formatting length.&#xD;
+		if (length &lt; 1000) { format = &quot;%3d&quot;; }&#xD;
+		else { format = &quot;%4d&quot;; }&#xD;
+		&#xD;
+		for (int i = 0; i &lt; length; i++) {&#xD;
+			char align1 = alignment[0].charAt(i);&#xD;
+			char align2 = alignment[1].charAt(i);&#xD;
+			&#xD;
+			if (align1 == '-' || align2 == '-') {&#xD;
+				gaps++;&#xD;
+				if (gaps % 25 == 0) {&#xD;
+					gap_locations = gap_locations.concat(String.format(format, i + 1) + &quot;,\n&quot;);&#xD;
+				} else {&#xD;
+					gap_locations = gap_locations.concat(String.format(format, i + 1) + &quot;, &quot;);&#xD;
+				}&#xD;
+			} else if (align1 == align2) {&#xD;
+				mats++;&#xD;
+			} else {&#xD;
+				subs++;&#xD;
+				if (subs % 10 == 0) {&#xD;
+					substitutions = substitutions.concat(String.format(format, i + 1) + &quot;: &quot; + align1 + &quot; &lt;> &quot; + align2 + &quot;,\n&quot;);&#xD;
+				} else {&#xD;
+					substitutions = substitutions.concat(String.format(format, i + 1) + &quot;: &quot; + align1 + &quot; &lt;> &quot; + align2 + &quot;, &quot;);&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		if (gap_locations.length() > 0) {&#xD;
+			gap_locations = gap_locations.substring(0, gap_locations.length() - 2);&#xD;
+		} else {&#xD;
+			gap_locations = &quot;No gaps detected.&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		if (substitutions.length() > 0) {&#xD;
+			substitutions = substitutions.substring(0, substitutions.length() - 2);&#xD;
+		} else {&#xD;
+			substitutions = &quot;No substitutions detected.&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		System.out.println(&quot;Number of Matches: &quot; + mats);&#xD;
+		System.out.println(&quot;Number of Insertions/Deletions: &quot; + gaps);&#xD;
+		System.out.println(&quot;Locations of Insertion/Deletions:\n&quot; + gap_locations);&#xD;
+		System.out.println(&quot;--------------------------------------------&quot;);&#xD;
+		System.out.println(&quot;Number of Substitutions: &quot; + subs);&#xD;
+		System.out.println(&quot;Locations of Substitutions:\n&quot; + substitutions);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_wTWg2RSDEeqs6MbNkUxYUA" name="main" isStatic="true" method="_wWLyYBSDEeqs6MbNkUxYUA" raisedException="_wVcLgBSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wTWg2hSDEeqs6MbNkUxYUA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wTgR0BSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wTgR0RSDEeqs6MbNkUxYUA" name="displayMutations" isStatic="true" method="_wWLyZxSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wTgR0hSDEeqs6MbNkUxYUA" name="alignment">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wTgR1BSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTgR0xSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wTgR1RSDEeqs6MbNkUxYUA" name="parseInfo" isStatic="true" method="_wWLyaxSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wTgR1hSDEeqs6MbNkUxYUA" name="alignment">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wTgR2BSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTgR1xSDEeqs6MbNkUxYUA" name="length">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wV43cBSDEeqs6MbNkUxYUA" name="readFile" isStatic="true" method="_wWLyYxSDEeqs6MbNkUxYUA" raisedException="_wVcLgBSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wV43cRSDEeqs6MbNkUxYUA" name="path">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wV43chSDEeqs6MbNkUxYUA" name="encoding" type="_wVl8gBSDEeqs6MbNkUxYUA"/>
+        <ownedParameter xmi:id="_wV43cxSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTqC0BSDEeqs6MbNkUxYUA" name="Node">
+      <ownedAttribute xmi:id="_wV43dBSDEeqs6MbNkUxYUA" name="prevNode" type="_wTqC0BSDEeqs6MbNkUxYUA" association="_wWVjeBSDEeqs6MbNkUxYUA"/>
+      <ownedAttribute xmi:id="_wV43dRSDEeqs6MbNkUxYUA" name="score">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wV43dhSDEeqs6MbNkUxYUA" name="row" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wV43dxSDEeqs6MbNkUxYUA" name="col" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLybxSDEeqs6MbNkUxYUA" name="Node" specification="_wTqC0RSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWLycBSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWLycRSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWLychSDEeqs6MbNkUxYUA" type="_wTqC0BSDEeqs6MbNkUxYUA" direction="return"/>
+        <language>java</language>
+        <body>this.row = row;&#xD;
+		this.col = col;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_wTqC0RSDEeqs6MbNkUxYUA" name="Node" method="_wWLybxSDEeqs6MbNkUxYUA">
+        <eAnnotations xmi:id="_wTqC1BSDEeqs6MbNkUxYUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_wTqC1RSDEeqs6MbNkUxYUA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_wTqC0hSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTqC0xSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTqC1hSDEeqs6MbNkUxYUA" type="_wTqC0BSDEeqs6MbNkUxYUA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTqC1xSDEeqs6MbNkUxYUA" name="SequenceAlignment">
+      <ownedAttribute xmi:id="_wV43eBSDEeqs6MbNkUxYUA" name="match" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wV43eRSDEeqs6MbNkUxYUA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWCocRSDEeqs6MbNkUxYUA" name="mismatch" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wWCochSDEeqs6MbNkUxYUA" value="-1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWCodBSDEeqs6MbNkUxYUA" name="gap" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wWCodRSDEeqs6MbNkUxYUA" value="-2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWCodxSDEeqs6MbNkUxYUA" name="sequence1" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWCoehSDEeqs6MbNkUxYUA" name="alignment" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWCoexSDEeqs6MbNkUxYUA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWCofhSDEeqs6MbNkUxYUA" name="score" visibility="protected" type="_wTqC0BSDEeqs6MbNkUxYUA" association="_wWfUZBSDEeqs6MbNkUxYUA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWCofxSDEeqs6MbNkUxYUA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wWVjehSDEeqs6MbNkUxYUA" name="sequence2" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_YzGGERSEEeqs6MbNkUxYUA" name="main" type="_wTNW4BSDEeqs6MbNkUxYUA" association="_YzGGEBSEEeqs6MbNkUxYUA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YzGGEhSEEeqs6MbNkUxYUA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YzGGExSEEeqs6MbNkUxYUA" value="*"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWLycxSDEeqs6MbNkUxYUA" name="SequenceAlignment" specification="_wTzMwBSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjYBSDEeqs6MbNkUxYUA" name="sequence1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjYRSDEeqs6MbNkUxYUA" name="sequence2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjYhSDEeqs6MbNkUxYUA" type="_wTqC1xSDEeqs6MbNkUxYUA" direction="return"/>
+        <language>java</language>
+        <body>this.sequence1 = sequence1;&#xD;
+		this.sequence2 = sequence2;&#xD;
+		// Instantiate new scoring matrix with new nodes from data.&#xD;
+		score = new Node[sequence2.length() + 1][sequence1.length() + 1];&#xD;
+		// Insert new nodes for each location.&#xD;
+		for (int i = 0; i &lt; score.length; i++) {&#xD;
+			for (int j = 0; j &lt; score[i].length; j++) {&#xD;
+				score[i][j] = new Node(i, j);&#xD;
+			}&#xD;
+		}&#xD;
+		// Initialize score values and run comparison method.&#xD;
+		setInitialInfo();&#xD;
+		setNodeInfo();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjYxSDEeqs6MbNkUxYUA" name="setInitialInfo" specification="_wTzMxhSDEeqs6MbNkUxYUA">
+        <language>java</language>
+        <body>for (int i = 0; i &lt; score.length; i++) {&#xD;
+			for (int j = 0; j &lt; score[i].length; j++) {&#xD;
+				score[i][j].setScore(getScores(i, j));&#xD;
+				score[i][j].setPrevNode(getNodes(i, j));&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjZBSDEeqs6MbNkUxYUA" name="getScores" specification="_wTzMxxSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjZRSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjZhSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjZxSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (row == 0 &amp;&amp; col != 0) {&#xD;
+			return col * gap;&#xD;
+		} else if (col == 0 &amp;&amp; row != 0) {&#xD;
+			return row * gap;&#xD;
+		} else {&#xD;
+			return 0;&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjaBSDEeqs6MbNkUxYUA" name="getNodes" specification="_wTzMyxSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjaRSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjahSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wWVjaxSDEeqs6MbNkUxYUA" type="_wTqC0BSDEeqs6MbNkUxYUA" direction="return"/>
+        <language>java</language>
+        <body>if (row == 0 &amp;&amp; col != 0) {&#xD;
+			return score[row][col - 1];&#xD;
+		} else if (col == 0 &amp;&amp; row != 0) {&#xD;
+			return score[row - 1][col];&#xD;
+		} else {&#xD;
+			return null;&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjbBSDEeqs6MbNkUxYUA" name="setNodeInfo" specification="_wT89wBSDEeqs6MbNkUxYUA">
+        <language>java</language>
+        <body>Node current = null, top = null, left = null, diagonal = null;&#xD;
+		int topGap, leftGap, diagonalScore;&#xD;
+		// Begin running through 2D array of nodes.&#xD;
+		for (int row = 1; row &lt; score.length; row++) {&#xD;
+			for (int col = 1; col &lt; score[row].length; col++) {&#xD;
+				// Obtain all possible scores for current node.&#xD;
+				current = score[row][col];&#xD;
+				top = score[row - 1][col];&#xD;
+				left = score[row][col - 1];&#xD;
+				diagonal = score[row - 1][col - 1];&#xD;
+				// Obtain both possible gap and match scores for current node.&#xD;
+				topGap = top.getScore() + gap;&#xD;
+				leftGap = left.getScore() + gap;&#xD;
+				// Compare diagonal node and determine if match/mismatch and add appropriate score.&#xD;
+				diagonalScore = diagonal.getScore();&#xD;
+				if (sequence2.charAt(current.getRow() - 1) == sequence1.charAt(current.getCol() - 1)) {&#xD;
+					diagonalScore += match;&#xD;
+				} else {&#xD;
+					diagonalScore += mismatch;&#xD;
+				}&#xD;
+				// Compare all scores with each other and determine which is highest and apply to node.&#xD;
+				if (topGap >= leftGap) {&#xD;
+					if (diagonalScore >= topGap) {&#xD;
+						current.setScore(diagonalScore);&#xD;
+						current.setPrevNode(diagonal);&#xD;
+					} else {&#xD;
+						current.setScore(topGap);&#xD;
+						current.setPrevNode(top);&#xD;
+					}&#xD;
+				} else {&#xD;
+					if (diagonalScore >= leftGap) {&#xD;
+						current.setScore(diagonalScore);&#xD;
+						current.setPrevNode(diagonal);&#xD;
+					} else {&#xD;
+						current.setScore(leftGap);&#xD;
+						current.setPrevNode(left);&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjbRSDEeqs6MbNkUxYUA" name="traceback" specification="_wT89wRSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjbhSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWVjbxSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>StringBuffer alignment1 = new StringBuffer();&#xD;
+		StringBuffer alignment2 = new StringBuffer();&#xD;
+		String[] alignments;&#xD;
+		Node current = score[score.length - 1][score[0].length - 1];&#xD;
+		// While there is a node available, begin traceback.&#xD;
+		while (!isNull(current)) {&#xD;
+			// Check if current and previous node assigned are left or above each other.&#xD;
+			// If the position of current - previous is 1, then grab the nucleotide, its a mismatch/match (diagonal).&#xD;
+			// Else place a gap.&#xD;
+			if (current.getCol() - current.getPrevNode().getCol() == 1) {&#xD;
+				alignment1.insert(0, sequence1.charAt(current.getCol() - 1));&#xD;
+			} else {&#xD;
+				alignment1.insert(0, '-');&#xD;
+			}&#xD;
+			if (current.getRow() - current.getPrevNode().getRow() == 1) {&#xD;
+				alignment2.insert(0, sequence2.charAt(current.getRow() - 1));&#xD;
+			} else {&#xD;
+				alignment2.insert(0, '-');&#xD;
+			}&#xD;
+			current = current.getPrevNode();&#xD;
+		}&#xD;
+		alignments = new String[] { alignment1.toString(), alignment2.toString() };&#xD;
+		return alignments;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjcBSDEeqs6MbNkUxYUA" name="isNull" specification="_wVvtgRSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjcRSDEeqs6MbNkUxYUA" name="current" type="_wTqC0BSDEeqs6MbNkUxYUA"/>
+        <ownedParameter xmi:id="_wWVjchSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return current.getPrevNode() == null;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjcxSDEeqs6MbNkUxYUA" name="getAlignment" specification="_wT89xRSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjdBSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wWVjdRSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>alignment = traceback();&#xD;
+		return alignment;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wWVjdhSDEeqs6MbNkUxYUA" name="getAlignmentScore" specification="_wT89yRSDEeqs6MbNkUxYUA">
+        <ownedParameter xmi:id="_wWVjdxSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int current_score = 0;&#xD;
+		for (int i = 0; i &lt; alignment[0].length(); i++) {&#xD;
+			if (alignment[0].charAt(i) == '-' || alignment[1].charAt(i) == '-') {&#xD;
+				current_score += gap;&#xD;
+			} else if (alignment[0].charAt(i) == alignment[1].charAt(i)) {&#xD;
+				current_score += match;&#xD;
+			} else {&#xD;
+				current_score += mismatch;&#xD;
+			}&#xD;
+		}&#xD;
+		return current_score;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_wTzMwBSDEeqs6MbNkUxYUA" name="SequenceAlignment" method="_wWLycxSDEeqs6MbNkUxYUA">
+        <eAnnotations xmi:id="_wTzMwxSDEeqs6MbNkUxYUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_wTzMxBSDEeqs6MbNkUxYUA" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_wWVjfRSDEeqs6MbNkUxYUA">
+          <body>Constructor method that takes in all arguments required for sequence alignment.&#xD;
+	 * It will initiate each node of the score matrix and set default scores and previous&#xD;
+	 * nodes to be processed later for scoring.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wTzMwRSDEeqs6MbNkUxYUA" name="sequence1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTzMwhSDEeqs6MbNkUxYUA" name="sequence2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTzMxRSDEeqs6MbNkUxYUA" type="_wTqC1xSDEeqs6MbNkUxYUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wTzMxhSDEeqs6MbNkUxYUA" name="setInitialInfo" visibility="protected" method="_wWVjYxSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWVjfhSDEeqs6MbNkUxYUA">
+          <body>Set the scores for each node and set the previous node pointer.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wTzMxxSDEeqs6MbNkUxYUA" name="getScores" visibility="protected" method="_wWVjZBSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWVjfxSDEeqs6MbNkUxYUA">
+          <body>Initiate first row and column scores based on gap penalty.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wTzMyBSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTzMyRSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTzMyhSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wTzMyxSDEeqs6MbNkUxYUA" name="getNodes" visibility="protected" method="_wWVjaBSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWVjgBSDEeqs6MbNkUxYUA">
+          <body>Get the specified node based on location for initial previous node setup.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wTzMzBSDEeqs6MbNkUxYUA" name="row">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wTzMzRSDEeqs6MbNkUxYUA" name="col">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wVvtgBSDEeqs6MbNkUxYUA" type="_wTqC0BSDEeqs6MbNkUxYUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wT89wBSDEeqs6MbNkUxYUA" name="setNodeInfo" visibility="protected" method="_wWVjbBSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWVjgRSDEeqs6MbNkUxYUA">
+          <body>Get the current node and get the nodes above, left, and diagonal nodes from it&#xD;
+	 * and apply scoring based on set score setting.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wT89wRSDEeqs6MbNkUxYUA" name="traceback" visibility="protected" method="_wWVjbRSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWfUYBSDEeqs6MbNkUxYUA">
+          <body>Trace back from the last node of sequence and follow up with the next&#xD;
+	 * previous node depending on the scoring and this sequence is placed into&#xD;
+	 * a string array.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wT89whSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wT89wxSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wT89xRSDEeqs6MbNkUxYUA" name="getAlignment" method="_wWVjcxSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWfUYhSDEeqs6MbNkUxYUA">
+          <body>Public accessible method to begin the trace back and return the&#xD;
+	 * alignment as a string array.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wT89xhSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wT89xxSDEeqs6MbNkUxYUA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wT89yRSDEeqs6MbNkUxYUA" name="getAlignmentScore" method="_wWVjdhSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWfUYxSDEeqs6MbNkUxYUA">
+          <body>Simple method to add up the score of the aligned sequence.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wT89yhSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wVvtgRSDEeqs6MbNkUxYUA" name="isNull" visibility="protected" method="_wWVjcBSDEeqs6MbNkUxYUA">
+        <ownedComment xmi:id="_wWfUYRSDEeqs6MbNkUxYUA">
+          <body>Check if previous node is null for trace back method.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_wVvtghSDEeqs6MbNkUxYUA" name="current" type="_wTqC0BSDEeqs6MbNkUxYUA"/>
+        <ownedParameter xmi:id="_wVvtgxSDEeqs6MbNkUxYUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wWVjeBSDEeqs6MbNkUxYUA" name="" memberEnd="_wV43dBSDEeqs6MbNkUxYUA _wWVjeRSDEeqs6MbNkUxYUA">
+      <ownedEnd xmi:id="_wWVjeRSDEeqs6MbNkUxYUA" name="" type="_wTqC0BSDEeqs6MbNkUxYUA" association="_wWVjeBSDEeqs6MbNkUxYUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wWfUZBSDEeqs6MbNkUxYUA" name="" memberEnd="_wWfUZRSDEeqs6MbNkUxYUA _wWCofhSDEeqs6MbNkUxYUA">
+      <ownedEnd xmi:id="_wWfUZRSDEeqs6MbNkUxYUA" name="" type="_wTqC1xSDEeqs6MbNkUxYUA" association="_wWfUZBSDEeqs6MbNkUxYUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YzGGEBSEEeqs6MbNkUxYUA" name="" memberEnd="_YzGGERSEEeqs6MbNkUxYUA _YzGGFBSEEeqs6MbNkUxYUA">
+      <ownedEnd xmi:id="_YzGGFBSEEeqs6MbNkUxYUA" name="" type="_wTqC1xSDEeqs6MbNkUxYUA" association="_YzGGEBSEEeqs6MbNkUxYUA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_wDTSoxSDEeqs6MbNkUxYUA">
+      <eAnnotations xmi:id="_wDcckBSDEeqs6MbNkUxYUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_wDcckRSDEeqs6MbNkUxYUA" base_Package="_tnjB4BSDEeqs6MbNkUxYUA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_wT89xBSDEeqs6MbNkUxYUA" dimensions="1" base_Element="_wT89wRSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Array xmi:id="_wT89yBSDEeqs6MbNkUxYUA" base_Element="_wT89xRSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wVcLgRSDEeqs6MbNkUxYUA" base_Element="_wVcLgBSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wVl8gRSDEeqs6MbNkUxYUA" base_Element="_wVl8gBSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wVl8gxSDEeqs6MbNkUxYUA" base_Element="_wVl8ghSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wVl8hRSDEeqs6MbNkUxYUA" base_Element="_wVl8hBSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wVl8hxSDEeqs6MbNkUxYUA" base_Element="_wVl8hhSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCocBSDEeqs6MbNkUxYUA" base_Element="_wV43eBSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCocxSDEeqs6MbNkUxYUA" base_Element="_wWCocRSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCodhSDEeqs6MbNkUxYUA" base_Element="_wWCodBSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_wWCoeBSDEeqs6MbNkUxYUA" base_Property="_wWCodxSDEeqs6MbNkUxYUA" siblings="_wWVjehSDEeqs6MbNkUxYUA" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCoeRSDEeqs6MbNkUxYUA" base_Element="_wWCodxSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Array xmi:id="_wWCofBSDEeqs6MbNkUxYUA" dimensions="1" base_Element="_wWCoehSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCofRSDEeqs6MbNkUxYUA" base_Element="_wWCoehSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Array xmi:id="_wWCogBSDEeqs6MbNkUxYUA" dimensions="2" base_Element="_wWCofhSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWCogRSDEeqs6MbNkUxYUA" base_Element="_wWCofhSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_wWVjexSDEeqs6MbNkUxYUA" base_Property="_wWVjehSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wWVjfBSDEeqs6MbNkUxYUA" base_Element="_wWVjehSDEeqs6MbNkUxYUA"/>
+  <UMLLabProfile:Reference xmi:id="_wWfUZhSDEeqs6MbNkUxYUA" base_Element="_wWfUZBSDEeqs6MbNkUxYUA"/>
+</xmi:XMI>
